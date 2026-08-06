@@ -1,6 +1,6 @@
 #string value always write inside double braces at assigning
 
-print("......STUDENT PROFILE......")
+print("......STUDENT PROFILE GENERATOR......")
 
 name = input("Enter student name:")
 age = float(input("Enter age:"))
