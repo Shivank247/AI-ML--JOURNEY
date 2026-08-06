@@ -7,6 +7,7 @@ age = float(input("Enter age:"))
 College = input("Enter college name:")
 branch = input("Enter branch name:")
 cgpa = float(input("Enter cgpa:"))
+
 print("Name   :",name)
 print("Age    :",age)
 print("College:",College)
