@@ -1,7 +1,12 @@
 def bmi_calculator(weight,height):
     bmi = weight/(height*height)
     return bmi
-bmi =bmi_calculator(70,1.75)  #now we can call the function with different weight and height values
+
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in m: "))
+
+bmi = bmi_calculator(weight,height)
+
 if bmi < 18.5:
     print("underweight")
 elif bmi < 25:
